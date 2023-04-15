@@ -87,7 +87,9 @@ class AuthController extends StateNotifier<bool> {
 
   Future<UserModel> getUserData(String uid) async {
     final document = await _userAPI.getUserData(uid);
+    print("document ${document.data}");
     final updatedUser = UserModel.fromMap(document.data);
+    print("from getUserData $updatedUser");
     return updatedUser;
   }
 }
