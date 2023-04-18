@@ -1,7 +1,7 @@
 
 # Twitter Clone
 
-Source Code for Twitter App Clone project - Works on Android & iOS!
+Twitter App Clone project - Works on Android & iOS!
 
 
 ## Features
@@ -15,6 +15,7 @@ Source Code for Twitter App Clone project - Works on Android & iOS!
 - Displaying tweets
 - Liking tweet
 ## Installation
+
 After cloning this repository, migrate to `flutter_twitter_clone` folder. Then, follow the following steps:
 - Install Appwrite (Installation Steps [here](https://appwrite.io/docs/installation)
 - Create Appwrite Project Locally
@@ -31,9 +32,11 @@ Then run the following commands to run your app:
   open -a simulator (to get iOS Simulator)
   flutter run
 ```
-## Authors
-
-- [@octokatherine](https://www.github.com/octokatherine)
-
-
 ## Technology Used
+**Server**: Appwrite Auth, Appwrite Storage, Appwrite Database, Appwrite Realtime
+
+**Client**: Flutter, Riverpod
+## 🚀 About Me
+I am Md. Ohiduzzaman Ove. Currently a student of Bachelor of. Science in Computer Science & Engineering at Dhaka City College (Under The National University, Bangladesh). I am a Software Engineer focusing on Flutter Development and Python Development and a competitive programmer. I love to solve programming problems on various online Judge platforms. Let's stay connected and collaborate together.
+
+
