@@ -11,6 +11,20 @@ import 'package:twitter_clone/features/auth/view/login_view.dart';
 import 'package:twitter_clone/features/auth/widgets/auth_field.dart';
 import 'package:twitter_clone/theme/pallete.dart';
 
+// unit test
+class EmailFieldValidator {
+  static String? validate(String value){
+    return value.isEmpty ? 'Email can\t be empty' : null;
+  }
+}
+
+class PasswordFieldValidator {
+  static String? validate(String value){
+    return value.isEmpty ? 'Password can\t be empty' : null;
+  }
+}
+
+
 class SignUpView extends ConsumerStatefulWidget {
   static route() => MaterialPageRoute(builder: (context) => const SignUpView());
 
@@ -37,6 +51,10 @@ class _SignUpViewState extends ConsumerState<SignUpView> {
         email: emailController.text,
         password: passwordController.text,
         context: context);
+
+        // unit test 
+        //EmailFieldValidator.validate;
+        //PasswordFieldValidator.validate;
   }
 
   @override
