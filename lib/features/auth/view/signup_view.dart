@@ -53,8 +53,8 @@ class _SignUpViewState extends ConsumerState<SignUpView> {
         context: context);
 
         // unit test 
-        //EmailFieldValidator.validate;
-        //PasswordFieldValidator.validate;
+        EmailFieldValidator.validate;
+        PasswordFieldValidator.validate;
   }
 
   @override
